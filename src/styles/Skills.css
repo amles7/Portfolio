@@ -1,0 +1,40 @@
+.titre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 20px;
+  margin-top: 50px;
+}
+
+.titre h2 {
+  font-size: 2em;
+  color: #61bfad;
+  font-size: 80px;
+}
+
+.titre img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+@media (max-width: 480px) {
+  .titre h2 {
+    font-size: 1em;
+  }
+
+  .titre img {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .titre h2 {
+    font-size: 3em;
+  }
+  .titre img {
+    width: 70px;
+    height: 70px;
+  }
+}

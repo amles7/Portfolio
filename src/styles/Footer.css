@@ -1,0 +1,22 @@
+.footer {
+  padding: 15px;
+  background-color: #4dc6a6;
+  color: #fff;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.socials {
+  margin-top: 10px;
+}
+
+.icon {
+  margin: 0 5px;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color: #d4f0e4;
+}
